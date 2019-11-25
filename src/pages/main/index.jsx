@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled, { keyframes } from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const Wrapper = styled.div`
     width:100%;
@@ -37,6 +38,7 @@ const Title = styled.div`
     font-size:6.5rem;
     margin-top:-1em;
     animation: ${TitleAnimation} 2s cubic-bezier(0.175,0.885,0.32,1.7);
+    color:#06061d;
 `
 
 const Bar = styled.div`
@@ -48,7 +50,6 @@ const Bar = styled.div`
     background-color:#06061d;
 `
 const Button = styled.button`
-    
     animation: ${ButtonAnimation} 1s forwards;
     animation-delay: 2s;
     opacity: 0;
@@ -58,6 +59,12 @@ const Button = styled.button`
     padding:12px 50px;
     outline:none;
     font-size:20px;
+    transition:0.5s;
+
+    &:hover{
+        background-color:#06061d;
+        color:white;
+    }
 `
 
 export default class Main extends Component {
@@ -65,7 +72,7 @@ export default class Main extends Component {
         return (
             <Wrapper>
                 <Title>A-frame</Title>
-                <Button>시작하기</Button>
+                <Link to="/docs/0.9.0"><Button>시작하기</Button></Link>
                 <Bar></Bar>
             </Wrapper>
         )
