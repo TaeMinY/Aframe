@@ -24,11 +24,23 @@ const Text = styled.div`
     transition:0.2s;
     opacity:0.75;
     height:30px;
-
     &:hover{
         color:#0052D4;
         opacity:1;
+    }
+`
 
+const Version = styled.div`
+    font-size:20px;
+    color:#06061d;
+    margin:auto 15px;
+    text-align:center;
+    transition:0.2s;
+    opacity:0.75;
+    height:30px;
+    &:hover{
+        color:#0052D4;
+        opacity:1;
     }
 `
 
@@ -68,7 +80,7 @@ class Header extends Component {
                     </Left>
                     <Right>
                         <div style={{ display: "flex", margin: "0px 10px" }}>
-                            <Text>버전</Text>
+                            <Version>버전</Version>
                             <select style={{ padding: "0px 10px", height: "fit-content", margin: "auto 0px" }}>
                                 <option selected="selected">0.9.0</option>
                             </select>

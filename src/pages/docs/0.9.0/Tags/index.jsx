@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from "../../../../components/Header"
 import Nav from "../../../../components/docs/0.9.0/Nav"
+import Box from "../../../../components/docs/0.9.0/Tags/Box"
 
 class index extends Component {
     render() {
@@ -9,7 +10,7 @@ class index extends Component {
                 <Header></Header>
                 <div style={{ display: "flex" }}>
                     <Nav></Nav>
-                    <div>d</div>
+                    <Box></Box>
                 </div>
             </div>
         );
