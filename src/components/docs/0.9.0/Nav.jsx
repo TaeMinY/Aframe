@@ -31,12 +31,9 @@ const Img = styled.img`
 `
 
 
-
-
-
 function Nav() {
 
-    const [tagState, setTagState] = React.useState(false);
+    const [tagState, setTagState] = React.useState(true);
 
     const Tags = ["<a-box>", "<a-camera>", "<a-circle>", "<a-cone>", "<a-cursor>", "<a-curvedimage>", "<a-cylinder>", "<a-dodecahedron>", "<a-gltf-model>", "<a-icosahedron>", "<a-image>", "<a-light>", "<a-link>", "<a-obj-model>", "<a-octahedron>", "<a-plane>", "<a-ring>", "<a-sky>", "<a-sound>", "<a-sphere>", "<a-tetrahedron>", "<a-text>", "<a-torus-knot>", "<a-torus>", "<a-trianle>", "<a-video>", "<a-videosphere>"]
     const test = [() => { console.log("a") }, () => { console.log("b") }]
