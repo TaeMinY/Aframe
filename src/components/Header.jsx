@@ -22,11 +22,27 @@ const Text = styled.div`
     margin:auto 15px;
     text-align:center;
     transition:0.2s;
-    opacity:0.8;
+    opacity:0.75;
     height:30px;
 
     &:hover{
-        color:#06061d;
+        color:#0052D4;
+        opacity:1;
+
+    }
+`
+
+const A = styled.a`
+    font-size:20px;
+    color:#06061d;
+    margin:auto 15px;
+    text-align:center;
+    transition:0.2s;
+    opacity:0.75;
+    height:30px;
+    text-decoration:none;
+    &:hover{
+        color:#0052D4;
         opacity:1;
 
     }
@@ -58,7 +74,7 @@ class Header extends Component {
                             </select>
                         </div>
                         <Text>커뮤니티</Text>
-                        <Text>공식문서</Text>
+                        <A href="https://aframe.io/">공식문서</A>
                         <img src="/github.png" alt="" width="30px" height="30px" style={{ margin: "15px" }} />
                     </Right>
                 </Wrapper>

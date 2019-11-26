@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components"
 
 const Wrapper = styled.div`
-    max-width:330px;
+    min-width:330px;
     height:calc(100vh - 70px);
     
     z-index:-1;

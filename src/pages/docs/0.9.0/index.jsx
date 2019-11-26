@@ -7,7 +7,10 @@ class index extends Component {
         return (
             <div>
                 <Header></Header>
-                <Nav></Nav>
+                <div style={{ display: "flex" }}>
+                    <Nav></Nav>
+                    <div>d</div>
+                </div>
             </div>
         );
     }

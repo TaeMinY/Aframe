@@ -6,7 +6,9 @@ const Wrapper = styled.div`
     
     background-color:#f5f5f5;
     box-sizing:border-box;
-    position:fixed;
+    position:sticky;
+    left:0px;
+    top:0px;
 `
 const Subject = styled.div`
     font-size:18px ;
@@ -30,13 +32,13 @@ const Img = styled.img`
 
 
 
-const Tags = ["<a-box>", "<a-camera>", "<a-circle>", "<a-cone>", "<a-cursor>", "<a-curvedimage>", "<a-cylinder>", "<a-dodecahedron>", "<a-gltf-model>", "<a-icosahedron>", "<a-image>", "<a-light>", "<a-link>", "<a-obj-model>", "<a-octahedron>", "<a-plane>", "<a-ring>", "<a-sky>", "<a-sound>", "<a-sphere>", "<a-tetrahedron>", "<a-text>", "<a-torus-knot>", "<a-torus>", "<a-trianle>", "<a-video>", "<a-videosphere>"]
 
 
 function Nav() {
 
     const [tagState, setTagState] = React.useState(false);
 
+    const Tags = ["<a-box>", "<a-camera>", "<a-circle>", "<a-cone>", "<a-cursor>", "<a-curvedimage>", "<a-cylinder>", "<a-dodecahedron>", "<a-gltf-model>", "<a-icosahedron>", "<a-image>", "<a-light>", "<a-link>", "<a-obj-model>", "<a-octahedron>", "<a-plane>", "<a-ring>", "<a-sky>", "<a-sound>", "<a-sphere>", "<a-tetrahedron>", "<a-text>", "<a-torus-knot>", "<a-torus>", "<a-trianle>", "<a-video>", "<a-videosphere>"]
     const test = [() => { console.log("a") }, () => { console.log("b") }]
 
 
@@ -52,19 +54,21 @@ function Nav() {
                     width: "70%",
                     margin: "10% auto",
                 }}>
-                    <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", transition: "0.2s" }} onClick={change}>
+                    <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", transition: "0.2s", cursor: "pointer" }} onClick={change}>
                         <Subject>기본 태그</Subject>
                         <Img src="/arrow.svg" state={tagState} ></Img>
                     </div>
-                    {
-                        tagState === true ? (
-                            <div style={{ margin: "5px 10px" }} style={!tagState ? { maxHeight: "0px" } : {}}>
-                                {(Tags || []).map((value, index) => (
-                                    <Tag className="Tag" onClick={test[index]} >{value}</Tag>
-                                ))}
-                            </div>
-                        ) : (<></>)
-                    }
+                    <div style={{ marginLeft: "8px" }}>
+                        {
+                            tagState === true ? (
+                                <div style={{ margin: "5px 10px" }} style={!tagState ? { maxHeight: "0px" } : {}}>
+                                    {(Tags || []).map((value, index) => (
+                                        <Tag className="Tag" onClick={test[index]} >{value}</Tag>
+                                    ))}
+                                </div>
+                            ) : (<></>)
+                        }
+                    </div>
                 </div>
             </div>
         </Wrapper >
