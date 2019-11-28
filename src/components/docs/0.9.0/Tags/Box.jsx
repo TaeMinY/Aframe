@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components"
-
+import Html from "../../../../components/Form/Html"
 const Wrapper = styled.div`
     display:flex;
     width:calc(100vw - 310px);
@@ -28,7 +28,9 @@ const SubTitle = styled.div`
     position:relative;
     color:#2c3e50;
     font-size:23px;
-    padding-bottom:10px;
+    padding-bottom:5px;
+    box-sizing:border-box;
+    margin-bottom:30px;
     &::before{
     content:" ";
     position:absolute;
@@ -37,6 +39,7 @@ const SubTitle = styled.div`
     height:1px;
     background-color:#ccc;
     z-index:1000;
+
     }
 `
 
@@ -48,6 +51,7 @@ const Box = () => {
                     <Title>{'<a-box>'}</Title>
                     <Text1>정육면체 또는 벽과 같은 모양을 만들 수 있습니다.</Text1>
                     <SubTitle>Example</SubTitle>
+                    <Html text="dd"></Html>
                 </div>
             </Contents>
             <SubNav>
