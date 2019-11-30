@@ -3,12 +3,11 @@ import styled from "styled-components"
 const Wrapper = styled.div`
     min-width:310px;
     height:calc(100vh - 70px);
-    
+    top:70px;
     background-color:#f5f5f5;
     box-sizing:border-box;
     position:sticky;
     left:0px;
-    top:0px;
 `
 const Subject = styled.div`
     font-size:18px ;
@@ -16,6 +15,7 @@ const Subject = styled.div`
 const Tag = styled.div`
 font-size:14.6px;
 margin: 3px 0px;
+cursor: pointer;
     opacity:0.5;
     &:hover{
         opacity: 0.8 !important;
@@ -46,26 +46,24 @@ function Nav() {
 
     return (
         <Wrapper>
-            <div>
-                <div style={{
-                    width: "70%",
-                    margin: "10% auto",
-                }}>
-                    <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", transition: "0.2s", cursor: "pointer" }} onClick={change}>
-                        <Subject>기본 태그</Subject>
-                        <Img src="/arrow.svg" state={tagState} ></Img>
-                    </div>
-                    <div style={{ marginLeft: "8px" }}>
-                        {
-                            tagState === true ? (
-                                <div style={{ margin: "5px 10px" }} style={!tagState ? { maxHeight: "0px" } : {}}>
-                                    {(Tags || []).map((value, index) => (
-                                        <Tag className="Tag" onClick={test[index]} >{value}</Tag>
-                                    ))}
-                                </div>
-                            ) : (<></>)
-                        }
-                    </div>
+            <div style={{
+                width: "70%",
+                margin: "10% auto",
+            }}>
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", transition: "0.2s", cursor: "pointer" }} onClick={change}>
+                    <Subject>기본 태그</Subject>
+                    <Img src="/arrow.svg" state={tagState} ></Img>
+                </div>
+                <div style={{ marginLeft: "8px" }}>
+                    {
+                        tagState === true ? (
+                            <div style={{ margin: "5px 10px" }} style={!tagState ? { maxHeight: "0px" } : {}}>
+                                {(Tags || []).map((value, index) => (
+                                    <Tag className="Tag" onClick={test[index]} >{value}</Tag>
+                                ))}
+                            </div>
+                        ) : (<></>)
+                    }
                 </div>
             </div>
         </Wrapper >

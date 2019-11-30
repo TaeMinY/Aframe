@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components"
-import Html from "../../../../components/Form/Html"
+import Html from "../../../Form/Html"
 const Wrapper = styled.div`
     display:flex;
     width:calc(100vw - 350px);
@@ -44,13 +44,16 @@ const SubTitle = styled.div`
 `
 
 
-const Box = () => {
+const Cursor = () => {
     return (
         <Wrapper>
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
-                    <Title>{'<a-box>'}</Title>
-                    <Text1>정육면체 또는 벽과 같은 모양을 만들 수 있습니다.</Text1>
+                    <Title>{'<a-cursor>'}</Title>
+                    <Text1>
+
+                        커서 기본 요소는 핸드 컨트롤러가없는 장치에서 장면에 대한 클릭 및 기본 상호 작용을 허용하는 레티클입니다. 기본 모양은 링 형상입니다. 커서는 일반적으로 카메라의 자식으로 배치됩니다.
+                    커서 작동 방법 및 커서 사용 방법에 대한 자세한 내용은 커서 구성 요소 설명서를 읽으십시오.</Text1>
                     <SubTitle>Example</SubTitle>
                     <Html>
                         {`
@@ -59,13 +62,7 @@ const Box = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-                <a-scene>
-                    <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-                    <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-                    <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-                    <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-                    <a-sky color="#ECECEC"></a-sky>
-                </a-scene>
+             
             </body>
         </html>
                         `}
@@ -79,4 +76,4 @@ const Box = () => {
     );
 };
 
-export default Box;
+export default Cursor;

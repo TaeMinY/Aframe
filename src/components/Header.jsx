@@ -10,6 +10,7 @@ const Wrapper = styled.div`
     position:sticky;
     top:0;
     left:0;
+    z-index:10000;
 `
 
 const Title = styled.div`
