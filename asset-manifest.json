@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/Aframe/static/js/main.bd720071.chunk.js",
+    "main.js.map": "/Aframe/static/js/main.bd720071.chunk.js.map",
+    "runtime-main.js": "/Aframe/static/js/runtime-main.f56ec3e6.js",
+    "runtime-main.js.map": "/Aframe/static/js/runtime-main.f56ec3e6.js.map",
+    "static/js/2.ca4f3eb2.chunk.js": "/Aframe/static/js/2.ca4f3eb2.chunk.js",
+    "static/js/2.ca4f3eb2.chunk.js.map": "/Aframe/static/js/2.ca4f3eb2.chunk.js.map",
+    "index.html": "/Aframe/index.html",
+    "precache-manifest.c846ab111d7025b3d95425831f5f730c.js": "/Aframe/precache-manifest.c846ab111d7025b3d95425831f5f730c.js",
+    "service-worker.js": "/Aframe/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f56ec3e6.js",
+    "static/js/2.ca4f3eb2.chunk.js",
+    "static/js/main.bd720071.chunk.js"
+  ]
+}
