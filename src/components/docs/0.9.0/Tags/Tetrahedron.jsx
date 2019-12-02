@@ -4,6 +4,7 @@ import Html from "../../../Form/Html"
 const Wrapper = styled.div`
     display:flex;
     width:calc(100vw - 350px);
+    margin-bottom:3%;
 `
 const Contents = styled.div`
     width: 75%;

@@ -4,6 +4,7 @@ import Html from "../../../Form/Html"
 const Wrapper = styled.div`
     display:flex;
     width:calc(100vw - 350px);
+    margin-bottom:3%;
 `
 const Contents = styled.div`
     width: 75%;
@@ -53,7 +54,7 @@ const Curvedimage = () => {
                     <Text1>
 
                         곡선 이미지 원선(primitive)는 사용자 주위에서 구부러지는 이미지를 만듭니다. 각각의 픽셀이 사용자로부터 동일한 거리에 위치하기 때문에 카메라 주위에 배열 된 곡선 이미지는 가독성을 만족시킬 수있다. 복잡한 레이아웃의 경우 평면 사이의 일련의 어색한 이음새가 아닌 매끄러운 표면을 보장하므로 각진 평면보다 더 나은 선택이 될 수 있습니다.
-    
+
 후드(hood) 아래에서 곡선 이미지는 텍스처가 실린더 내부에 매핑 된 양면 오픈 엔드 실린더입니다.</Text1>
                     <SubTitle>Example</SubTitle>
                     <Html>

@@ -4,6 +4,7 @@ import Html from "../../../Form/Html"
 const Wrapper = styled.div`
     display:flex;
     width:calc(100vw - 310px);
+    margin-bottom:3%;
 `
 const Contents = styled.div`
     width: 75%;
@@ -51,7 +52,7 @@ const Torus_knot = () => {
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-torus-knot>'}</Title>
                     <Text1>
-                    원환 체 매듭 기본 요소는 유형이 torusKnot으로 설정된 형상 구성 요소를 사용하여 프레첼 모양을 만듭니다.
+                        원환 체 매듭 기본 요소는 유형이 torusKnot으로 설정된 형상 구성 요소를 사용하여 프레첼 모양을 만듭니다.
                   </Text1>
                     <SubTitle>Example</SubTitle>
                     <Html>
