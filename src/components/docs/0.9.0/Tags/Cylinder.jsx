@@ -62,7 +62,16 @@ const Cylinder = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-scene>
+                    <!-- 기본 원기둥 -->
+                    <a-cylinder color="crimson" height="3" radius="1.5"></a-cylinder>
+                    <!-- 육각형 -->
+                    <a-cylinder color="cyan" segments-radial="6"></a-cylinder>
+                    <!-- 픽맨 -->
+                    <a-cylinder color="yellow" theta-start="50" theta-length="280" side="double"></a-cylinder>
+                    <!-- 초록색 원통 -->
+                    <a-cylinder color="green" open-ended="true"></a-cylinder>
+                </a-scene>
             </body>
         </html>
                         `}
@@ -70,7 +79,6 @@ const Cylinder = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );

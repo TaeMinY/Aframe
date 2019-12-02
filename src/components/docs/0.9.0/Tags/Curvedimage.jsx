@@ -80,7 +80,6 @@ const Curvedimage = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper >
     );

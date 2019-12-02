@@ -7,6 +7,8 @@ import Circle from "../../../../components/docs/0.9.0/Tags/Circle"
 import Cone from "../../../../components/docs/0.9.0/Tags/Cone"
 import Cursor from "../../../../components/docs/0.9.0/Tags/Cursor"
 import Curvedimage from '../../../../components/docs/0.9.0/Tags/Curvedimage';
+import Cylinder from '../../../../components/docs/0.9.0/Tags/Cylinder';
+import Dodecahedron from '../../../../components/docs/0.9.0/Tags/Dodecahedron';
 class index extends Component {
     render() {
         return (
@@ -21,6 +23,8 @@ class index extends Component {
                         <Cone></Cone>
                         <Cursor></Cursor>
                         <Curvedimage></Curvedimage>
+                        <Cylinder></Cylinder>
+                        <Dodecahedron></Dodecahedron>
                     </div>
                 </div>
             </div >
