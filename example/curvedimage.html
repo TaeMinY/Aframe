@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-assets>
+            <img id="my-image" src="image.png">
+        </a-assets>
+        <!-- Using the asset management system. -->
+        <a-curvedimage src="#my-image" height="3.0" radius="5.7" theta-length="72" rotation="0 100 0"
+            scale="0.8 0.8 0.8"></a-curvedimage>
+        <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
+        <a-curvedimage src="another-image.png"></a-curvedimage>
+    </a-scene>
+</body>
+
+</html>
