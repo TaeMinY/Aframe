@@ -52,8 +52,7 @@ const Cursor = () => {
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-cursor>'}</Title>
                     <Text1>
-
-                        커서 기본 요소는 핸드 컨트롤러가없는 장치에서 장면에 대한 클릭 및 기본 상호 작용을 허용하는 레티클입니다. 기본 모양은 링 형상입니다. 커서는 일반적으로 카메라의 자식으로 배치됩니다.
+                        커서 기본 요소는 핸드 컨트롤러가없는 장치에서 장면에 대한 클릭 및 기본 상호 작용을 허용하는 레티클입니다. 기본 모양은 원 모양입니다. 커서는 일반적으로 카메라의 자식으로 배치됩니다.
                     커서 작동 방법 및 커서 사용 방법에 대한 자세한 내용은 커서 구성 요소 설명서를 읽으십시오.</Text1>
                     <SubTitle>Example</SubTitle>
                     <Html>
@@ -63,7 +62,12 @@ const Cursor = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-scene>
+                    <a-camera>
+                        <a-cursor></a-cursor>
+                    </a-camera>
+                    <a-box></a-box>
+                </a-scene>
             </body>
         </html>
                         `}
@@ -71,7 +75,6 @@ const Cursor = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );

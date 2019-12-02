@@ -66,9 +66,9 @@ const Cone = () => {
                     <a-assets>
                         <img id="texture" src="texture.png">
                     </a-assets>
-                    <!-- Basic cone. -->
+                    <!-- 기본 원 -->
                     <a-cone color="tomato" radius-bottom="2" radius-top="0.5"></a-cone>
-                    <!-- Textured box. -->
+                    <!-- 이미지 원 -->
                     <a-cone src="#texture"></a-cone>
                  </a-scene>
             </body>
@@ -78,7 +78,6 @@ const Cone = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );
