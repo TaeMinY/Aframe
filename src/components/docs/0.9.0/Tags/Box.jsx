@@ -4,7 +4,7 @@ import Html from "../../../../components/Form/Html"
 const Wrapper = styled.div`
     display:flex;
     width:calc(100vw - 350px);
-    margin-bottom:5%;
+    margin-bottom:4%;
 `
 const Contents = styled.div`
     width: 75%;
@@ -76,7 +76,6 @@ const Box = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );
