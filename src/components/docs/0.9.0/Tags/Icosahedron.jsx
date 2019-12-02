@@ -52,6 +52,7 @@ const Icosahedron = () => {
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-icosahedron>'}</Title>
                     <Text1>
+                        정 20면체를 생성 할 수 있습니다.
                     </Text1>
                     <SubTitle>Example</SubTitle>
                     <Html>
@@ -61,7 +62,9 @@ const Icosahedron = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-scene>
+                    <a-icosahedron color="#FF926B" radius="5"></a-icosahedron>
+                </a-scene>
             </body>
         </html>
                         `}
@@ -69,7 +72,6 @@ const Icosahedron = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );

@@ -10,6 +10,7 @@ import Curvedimage from '../../../../components/docs/0.9.0/Tags/Curvedimage';
 import Cylinder from '../../../../components/docs/0.9.0/Tags/Cylinder';
 import Dodecahedron from '../../../../components/docs/0.9.0/Tags/Dodecahedron';
 import Gltf_model from '../../../../components/docs/0.9.0/Tags/Gltf_model';
+import Icosahedron from '../../../../components/docs/0.9.0/Tags/Icosahedron';
 class index extends Component {
     render() {
         return (
@@ -27,6 +28,7 @@ class index extends Component {
                         <Cylinder></Cylinder>
                         <Dodecahedron></Dodecahedron>
                         <Gltf_model></Gltf_model>
+                        <Icosahedron></Icosahedron>
                     </div>
                 </div>
             </div >
