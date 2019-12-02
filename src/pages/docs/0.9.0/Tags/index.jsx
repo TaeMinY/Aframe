@@ -4,6 +4,7 @@ import Nav from "../../../../components/docs/0.9.0/Nav"
 import Box from "../../../../components/docs/0.9.0/Tags/Box"
 import Camera from "../../../../components/docs/0.9.0/Tags/Camera"
 import Circle from "../../../../components/docs/0.9.0/Tags/Circle"
+import Cone from "../../../../components/docs/0.9.0/Tags/Cone"
 
 class index extends Component {
     render() {
@@ -16,6 +17,7 @@ class index extends Component {
                         <Box></Box>
                         <Camera></Camera>
                         <Circle></Circle>
+                        <Cone></Cone>
                     </div>
                 </div>
             </div >
