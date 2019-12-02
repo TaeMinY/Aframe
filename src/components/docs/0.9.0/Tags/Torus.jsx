@@ -62,7 +62,9 @@ const Torus = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-scene>
+                    <a-torus color="#43A367" arc="270" radius="5" radius-tubular="0.1"></a-torus>
+                </a-scene>
             </body>
         </html>
                         `}

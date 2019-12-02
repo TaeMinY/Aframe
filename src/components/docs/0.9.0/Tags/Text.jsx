@@ -52,7 +52,7 @@ const Text = () => {
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-text>'}</Title>
                     <Text1>
-                        Wraps the text component.
+                        텍스트 구성 요소를 작성합니다.
                   </Text1>
                     <SubTitle>Example</SubTitle>
                     <Html>
@@ -62,7 +62,9 @@ const Text = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-scene>
+                    <a-text value="Hello, World!"></a-text>
+                <a-scene>
             </body>
         </html>
                         `}
@@ -70,7 +72,6 @@ const Text = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );

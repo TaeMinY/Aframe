@@ -22,6 +22,9 @@ import Sky from '../../../../components/docs/0.9.0/Tags/Sky';
 import Sound from '../../../../components/docs/0.9.0/Tags/Sound';
 import Sphere from '../../../../components/docs/0.9.0/Tags/Sphere';
 import Tetrahedron from '../../../../components/docs/0.9.0/Tags/Tetrahedron';
+import Text from "../../../../components/docs/0.9.0/Tags/Text";
+import Torus_knot from '../../../../components/docs/0.9.0/Tags/Torus_knot';
+import Torus from '../../../../components/docs/0.9.0/Tags/Torus';
 class index extends Component {
     render() {
         return (
@@ -51,7 +54,9 @@ class index extends Component {
                         <Sound></Sound>
                         <Sphere></Sphere>
                         <Tetrahedron></Tetrahedron>
-
+                        <Text></Text>
+                        <Torus_knot></Torus_knot>
+                        <Torus></Torus>
                     </div>
                 </div>
             </div >
