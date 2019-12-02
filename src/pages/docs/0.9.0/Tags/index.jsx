@@ -9,6 +9,7 @@ import Cursor from "../../../../components/docs/0.9.0/Tags/Cursor"
 import Curvedimage from '../../../../components/docs/0.9.0/Tags/Curvedimage';
 import Cylinder from '../../../../components/docs/0.9.0/Tags/Cylinder';
 import Dodecahedron from '../../../../components/docs/0.9.0/Tags/Dodecahedron';
+import Gltf_model from '../../../../components/docs/0.9.0/Tags/Gltf_model';
 class index extends Component {
     render() {
         return (
@@ -25,6 +26,7 @@ class index extends Component {
                         <Curvedimage></Curvedimage>
                         <Cylinder></Cylinder>
                         <Dodecahedron></Dodecahedron>
+                        <Gltf_model></Gltf_model>
                     </div>
                 </div>
             </div >

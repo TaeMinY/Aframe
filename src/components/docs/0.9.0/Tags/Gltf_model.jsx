@@ -62,7 +62,15 @@ const Gltf_model = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-scene>
+                    <a-assets>
+                        <a-asset-item id="tree" src="tree.gltf">
+                    </a-assets>
+                    <!-- Using the asset management system. -->
+                    <a-gltf-model src="#tree"></a-gltf-model>
+                    <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
+                    <a-gltf-model src="tree.gltf"></a-gltf-model>
+                </a-scene>
             </body>
         </html>
                         `}
@@ -70,7 +78,6 @@ const Gltf_model = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );
