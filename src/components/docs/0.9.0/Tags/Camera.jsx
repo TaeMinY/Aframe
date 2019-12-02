@@ -47,7 +47,7 @@ const SubTitle = styled.div`
 
 const Camera = () => {
     return (
-        <Wrapper>
+        <Wrapper id="<a-camera>">
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-camera>'}</Title>

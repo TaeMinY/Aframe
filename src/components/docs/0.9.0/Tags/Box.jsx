@@ -47,7 +47,7 @@ const SubTitle = styled.div`
 
 const Box = () => {
     return (
-        <Wrapper>
+        <Wrapper id="<a-box>">
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-box>'}</Title>

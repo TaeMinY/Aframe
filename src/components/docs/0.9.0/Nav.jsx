@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
+import { Link } from "react-scroll";
 const Wrapper = styled.div`
     min-width:310px;
     height:calc(100vh - 70px);
@@ -36,7 +37,7 @@ function Nav() {
     const [tagState, setTagState] = React.useState(true);
 
     const Tags = ["<a-box>", "<a-camera>", "<a-circle>", "<a-cone>", "<a-cursor>", "<a-curvedimage>", "<a-cylinder>", "<a-dodecahedron>", "<a-gltf-model>", "<a-icosahedron>", "<a-image>", "<a-light>", "<a-link>", "<a-obj-model>", "<a-octahedron>", "<a-plane>", "<a-ring>", "<a-sky>", "<a-sound>", "<a-sphere>", "<a-tetrahedron>", "<a-text>", "<a-torus-knot>", "<a-torus>", "<a-trianle>", "<a-video>", "<a-videosphere>"]
-    const test = [() => { console.log("a") }, () => { console.log("b") }]
+    const test = ["<a-box>", "<a-camera>", "<a-circle>", "<a-cone>", "<a-cursor>", "<a-curvedimage>", "<a-cylinder>", "<a-dodecahedron>", "<a-gltf-model>", "<a-icosahedron>", "<a-image>", "<a-light>", "<a-link>", "<a-obj-model>", "<a-octahedron>", "<a-plane>", "<a-ring>", "<a-sky>", "<a-sound>", "<a-sphere>", "<a-tetrahedron>", "<a-text>", "<a-torus-knot>", "<a-torus>", "<a-trianle>", "<a-video>", "<a-videosphere>"]
 
 
 
@@ -59,7 +60,11 @@ function Nav() {
                         tagState === true ? (
                             <div style={{ margin: "5px 10px" }} style={!tagState ? { maxHeight: "0px" } : {}}>
                                 {(Tags || []).map((value, index) => (
-                                    <Tag className="Tag" onClick={test[index]} >{value}</Tag>
+                                    <Tag className="Tag" >
+                                        <Link activeClass="active" to={test[index]} spy={true} smooth={true} offset={-70} duration={500} style={{ zIndex: 1000 }}>
+                                            {value}
+                                        </Link>
+                                    </Tag>
                                 ))}
                             </div>
                         ) : (<></>)
