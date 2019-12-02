@@ -61,7 +61,10 @@ const Camera = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-scene>
+                    <a-box></a-box>
+                    <a-camera></a-camera>
+                </a-scene>
             </body>
         </html>
                         `}
