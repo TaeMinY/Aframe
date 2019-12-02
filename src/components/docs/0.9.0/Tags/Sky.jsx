@@ -62,7 +62,12 @@ const Sky = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-scene>
+                    <a-assets>
+                        <img id="sky" src="sky.png">
+                    </a-assets>
+                    <a-sky src="#sky"></a-sky>
+                </a-scene>
             </body>
         </html>
                         `}
@@ -70,7 +75,6 @@ const Sky = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );

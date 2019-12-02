@@ -62,7 +62,9 @@ const Sound = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-scene>
+                    <a-sound src="src: url(click.mp3)" autoplay="true" position="0 2 5"></a-sound>
+                </a-scene>
             </body>
         </html>
                         `}
@@ -70,7 +72,6 @@ const Sound = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );

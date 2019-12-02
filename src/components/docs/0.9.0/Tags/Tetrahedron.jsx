@@ -62,7 +62,9 @@ const Tetrahedron = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-scene>
+                    <a-tetrahedron color="#FF926B" radius="5"></a-tetrahedron>
+                </a-scene>
             </body>
         </html>
                         `}
@@ -70,7 +72,6 @@ const Tetrahedron = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );

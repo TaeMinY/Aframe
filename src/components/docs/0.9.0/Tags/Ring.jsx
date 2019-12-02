@@ -62,7 +62,13 @@ const Ring = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-assets>
+                    <img id="texture" src="texture.png">
+                </a-assets>
+                <!-- 기본 링. -->
+                <a-ring color="teal" radius-inner="1" radius-outer="2"></a-ring>
+                <!-- 이미지 링. -->
+                <a-ring src="#texture"></a-ring>
             </body>
         </html>
                         `}
@@ -70,7 +76,6 @@ const Ring = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );

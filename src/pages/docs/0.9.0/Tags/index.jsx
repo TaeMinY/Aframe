@@ -17,6 +17,11 @@ import Link from '../../../../components/docs/0.9.0/Tags/Link';
 import Obj_model from '../../../../components/docs/0.9.0/Tags/Obj_model.jsx';
 import Octahedron from '../../../../components/docs/0.9.0/Tags/Octahedron';
 import Plane from '../../../../components/docs/0.9.0/Tags/Plane';
+import Ring from '../../../../components/docs/0.9.0/Tags/Ring';
+import Sky from '../../../../components/docs/0.9.0/Tags/Sky';
+import Sound from '../../../../components/docs/0.9.0/Tags/Sound';
+import Sphere from '../../../../components/docs/0.9.0/Tags/Sphere';
+import Tetrahedron from '../../../../components/docs/0.9.0/Tags/Tetrahedron';
 class index extends Component {
     render() {
         return (
@@ -41,6 +46,12 @@ class index extends Component {
                         <Obj_model></Obj_model>
                         <Octahedron></Octahedron>
                         <Plane></Plane>
+                        <Ring></Ring>
+                        <Sky></Sky>
+                        <Sound></Sound>
+                        <Sphere></Sphere>
+                        <Tetrahedron></Tetrahedron>
+
                     </div>
                 </div>
             </div >

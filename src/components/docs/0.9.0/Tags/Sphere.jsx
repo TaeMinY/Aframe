@@ -62,7 +62,9 @@ const Sphere = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-scene>
+                    <a-sphere color="yellow" radius="5"></a-sphere>
+                </a-scene>
             </body>
         </html>
                         `}
@@ -70,7 +72,6 @@ const Sphere = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );
