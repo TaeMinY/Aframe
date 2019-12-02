@@ -62,7 +62,15 @@ const Video = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-scene>
+                    <a-assets>
+                        <video id="penguin-sledding" autoplay loop="true" src="penguin-sledding.mp4"></video>
+                    </a-assets>
+                    <!-- assets에 저장된 penguin-sledding를 불러서 적용하였다. -->
+                    <a-video src="#penguin-sledding" width="16" height="9" position="0 0 -20"></a-video>
+                    <!-- URL 인라인 정의는 웹 개발자에게 권장되지 하지 않습니다. -->
+                    <a-video src="airbending.mp4"></a-video>
+                </a-scene>
             </body>
         </html>
                         `}
@@ -70,7 +78,6 @@ const Video = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );

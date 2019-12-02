@@ -63,7 +63,16 @@ const Triangle = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-scene>
+                    <a-assets>
+                        <img id="platform" src="https://i.imgur.com/mYmmbrp.jpg">
+                    </a-assets>
+                    <!-- 일반 삼각형. -->
+                    <a-triangle color="#CCC" vertex-c="1 -1 0"></a-triangle>
+
+                    <!-- 이미지 삼각형. -->
+                    <a-triangle src="#platform" rotation="-90 0 0"></a-triangle>
+                </a-scene>
             </body>
         </html>
                         `}
@@ -71,7 +80,6 @@ const Triangle = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );

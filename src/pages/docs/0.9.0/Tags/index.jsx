@@ -25,6 +25,9 @@ import Tetrahedron from '../../../../components/docs/0.9.0/Tags/Tetrahedron';
 import Text from "../../../../components/docs/0.9.0/Tags/Text";
 import Torus_knot from '../../../../components/docs/0.9.0/Tags/Torus_knot';
 import Torus from '../../../../components/docs/0.9.0/Tags/Torus';
+import Triangle from '../../../../components/docs/0.9.0/Tags/Triangle';
+import Video from '../../../../components/docs/0.9.0/Tags/Video';
+import Videosphere from '../../../../components/docs/0.9.0/Tags/Videosphere';
 class index extends Component {
     render() {
         return (
@@ -57,6 +60,9 @@ class index extends Component {
                         <Text></Text>
                         <Torus_knot></Torus_knot>
                         <Torus></Torus>
+                        <Triangle></Triangle>
+                        <Video></Video>
+                        <Videosphere></Videosphere>
                     </div>
                 </div>
             </div >

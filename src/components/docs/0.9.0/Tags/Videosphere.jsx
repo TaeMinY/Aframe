@@ -62,7 +62,15 @@ const Videosphere = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                 <a-scene>
+                    <a-assets>
+                      <video id="antarctica" autoplay loop="true" src="antarctica.mp4"> </video>
+                    </a-assets>
+                    <!-- assets에 저장된 antarctica를 불러서 적용하였다. -->
+                    <a-videosphere src="#antarctica"></a-videosphere>
+                    <!-- URL 인라인 정의는 웹 개발자에게 권장되지 하지 않습니다. -->
+                    <a-videosphere src="africa.mp4"></a-videosphere>
+                </a-scene>
             </body>
         </html>
                         `}
@@ -70,7 +78,6 @@ const Videosphere = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );
