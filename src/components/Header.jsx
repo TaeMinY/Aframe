@@ -86,9 +86,9 @@ class Header extends Component {
                                 <option selected="selected">0.9.0</option>
                             </select>
                         </div>
-                        <Text>커뮤니티</Text>
+                        <Text><a href="https://open.kakao.com/o/gxV5pHNb" style={{ textDecoration: "none", color: "#06061d" }}>커뮤니티</a></Text>
                         <A href="https://aframe.io/">공식문서</A>
-                        <img src="/github.png" alt="" width="30px" height="30px" style={{ margin: "15px" }} />
+                        <a href="https://github.com/UniTaeMin/Aframe"><img src="/github.png" alt="" width="30px" height="30px" style={{ margin: "15px" }} /></a>
                     </Right>
                 </Wrapper>
             </>
