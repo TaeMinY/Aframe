@@ -11,6 +11,8 @@ import Cylinder from '../../../../components/docs/0.9.0/Tags/Cylinder';
 import Dodecahedron from '../../../../components/docs/0.9.0/Tags/Dodecahedron';
 import Gltf_model from '../../../../components/docs/0.9.0/Tags/Gltf_model';
 import Icosahedron from '../../../../components/docs/0.9.0/Tags/Icosahedron';
+import Image from "../../../../components/docs/0.9.0/Tags/Image"
+import Light from '../../../../components/docs/0.9.0/Tags/Light';
 class index extends Component {
     render() {
         return (
@@ -29,6 +31,8 @@ class index extends Component {
                         <Dodecahedron></Dodecahedron>
                         <Gltf_model></Gltf_model>
                         <Icosahedron></Icosahedron>
+                        <Image></Image>
+                        <Light></Light>
                     </div>
                 </div>
             </div >

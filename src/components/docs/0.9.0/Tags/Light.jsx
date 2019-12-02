@@ -62,7 +62,15 @@ const Light = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-scene>
+                    <!-- 왼쪽 상단에서 빛나는 빨간색 빛. -->
+                    <a-light color="red" position="-1 1 0"></a-light>
+                    <!-- 파란 빛, 공중에서 5 미터 떨어져있다. -->
+                    <a-light type="point" color="blue" position="0 5 0"></a-light>
+                    <!-- 어두운 주변 빛. -->
+                    <a-light type="ambient" color="#222"></a-light>
+                    <a-box></a-box>
+                </a-scene>
             </body>
         </html>
                         `}
@@ -70,7 +78,6 @@ const Light = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );

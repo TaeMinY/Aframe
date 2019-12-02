@@ -67,7 +67,7 @@ const Curvedimage = () => {
                     <a-assets>
                         <img id="my-image" src="image.png">
                     </a-assets>
-                    <!-- src안에 #id를 적어 개발합니다. -->
+                    <!-- assets에 저장된 my-image를 불러서 적용하였다. -->
                     <a-curvedimage src="#my-image" height="3.0" radius="5.7" theta-length="72"
                     rotation="0 100 0" scale="0.8 0.8 0.8"></a-curvedimage>
                     <!-- URL 인라인 정의는 웹 개발자에게 권장되지 하지 않습니다.-->

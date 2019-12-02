@@ -62,7 +62,15 @@ const Image = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-scene>
+                    <a-assets>
+                        <img id="my-image" src="image.png">
+                    </a-assets>
+                    <!-- assets에 저장된 my-image를 불러서 적용하였다. -->
+                    <a-image src="#my-image"></a-image>
+                    <!-- URL 인라인 정의는 웹 개발자에게 권장되지 하지 않습니다. -->
+                    <a-image src="another-image.png"></a-image>
+               </a-scene>
             </body>
         </html>
                         `}
@@ -70,7 +78,6 @@ const Image = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );
