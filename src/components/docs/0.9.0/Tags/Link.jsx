@@ -54,8 +54,8 @@ const Link = () => {
                     <Text1>
                         링크 기본 요소는 기존 a 태그와 유사한 링크를 정의하기위한 소형 API(compact API)를 제공합니다.
                   </Text1>
-                    <SubTitle>Example</SubTitle>
-                    <Html>
+                    {/* <SubTitle>Example</SubTitle> */}
+                    {/* <Html>
                         {`
         <html>
             <head>
@@ -66,11 +66,10 @@ const Link = () => {
             </body>
         </html>
                         `}
-                    </Html>
+                    </Html> */}
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );

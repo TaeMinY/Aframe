@@ -62,7 +62,16 @@ const Obj_model = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-scene>
+                    <a-assets>
+                        <a-asset-item id="crate-obj" src="crate.obj"></a-asset-item>
+                        <a-asset-item id="crate-mtl" src="crate.mtl"></a-asset-item>
+                    </a-assets>
+                    <!-- assets에 저장된 crate-obj를 불러서 적용하였다. -->
+                    <a-obj-model src="#crate-obj" mtl="#crate-mtl"></a-obj-model>
+                    <!-- URL 인라인 정의는 웹 개발자에게 권장되지 하지 않습니다. -->
+                    <a-obj-model src="crate.obj" mtl="crate.mtl"></a-obj-model>
+                </a-scene>
             </body>
         </html>
                         `}
@@ -70,7 +79,6 @@ const Obj_model = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );

@@ -13,6 +13,8 @@ import Gltf_model from '../../../../components/docs/0.9.0/Tags/Gltf_model';
 import Icosahedron from '../../../../components/docs/0.9.0/Tags/Icosahedron';
 import Image from "../../../../components/docs/0.9.0/Tags/Image"
 import Light from '../../../../components/docs/0.9.0/Tags/Light';
+import Link from '../../../../components/docs/0.9.0/Tags/Link';
+import Obj_model from '../../../../components/docs/0.9.0/Tags/Obj_model';
 class index extends Component {
     render() {
         return (
@@ -33,6 +35,8 @@ class index extends Component {
                         <Icosahedron></Icosahedron>
                         <Image></Image>
                         <Light></Light>
+                        <Link></Link>
+                        <Obj_model></Obj_model>
                     </div>
                 </div>
             </div >
