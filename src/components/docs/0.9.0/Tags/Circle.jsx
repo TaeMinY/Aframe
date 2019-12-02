@@ -4,7 +4,7 @@ import Html from "../../../Form/Html"
 const Wrapper = styled.div`
     display:flex;
     width:calc(100vw - 350px);
-    margin-bottom:3%;
+    margin-bottom:4%;
 `
 const Contents = styled.div`
     width: 75%;
@@ -61,7 +61,15 @@ const Circle = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-scene>
+                    <a-assets>
+                        <img id="platform" src="platform.jpg">
+                    </a-assets>
+                    <!-- 기본 원 -->
+                    <a-circle color="#CCC" radius="20"></a-circle>
+                    <!-- 이미지 원 -->
+                    <a-circle src="#platform" radius="50" rotation="-90 0 0"></a-circle>
+                </a-scene>
             </body>
         </html>
                         `}

@@ -4,7 +4,7 @@ import Html from "../../../../components/Form/Html"
 const Wrapper = styled.div`
     display:flex;
     width:calc(100vw - 350px);
-    margin-bottom:3%;
+    margin-bottom:5%;
 `
 const Contents = styled.div`
     width: 75%;
@@ -64,9 +64,9 @@ const Box = () => {
                     <a-assets>
                         <img id="texture" src="texture.png">
                     </a-assets>
-                    <!-- 기본 박스. -->
+                    <!-- 기본 박스 -->
                     <a-box color="tomato" depth="2" height="4" width="0.5"></a-box>
-                    <!-- 이미지 박스. -->
+                    <!-- 이미지 박스 -->
                     <a-box src="#texture"></a-box>
                 </a-scene>
             </body>
