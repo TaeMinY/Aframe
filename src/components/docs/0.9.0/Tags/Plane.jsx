@@ -62,7 +62,15 @@ const Plane = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-scene>
+                    <a-assets>
+                        <img id="ground" src="ground.jpg">
+                    </a-assets>
+                    <!-- 기본 평면. -->
+                    <a-plane color="#CCC" height="20" width="20"></a-plane>
+
+                    <a-plane src="#ground" height="100" width="100" rotation="-90 0 0"></a-plane>
+                </a-scene>
             </body>
         </html>
                         `}
@@ -70,7 +78,6 @@ const Plane = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );

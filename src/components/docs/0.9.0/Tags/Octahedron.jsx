@@ -52,7 +52,7 @@ const Octahedron = () => {
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-octahedron>'}</Title>
                     <Text1>
-
+                        8면체를 생성 할 수 있습니다.
                     </Text1>
                     <SubTitle>Example</SubTitle>
                     <Html>
@@ -62,7 +62,9 @@ const Octahedron = () => {
                 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
             </head>
             <body>
-             
+                <a-scene>
+                    <a-octahedron color="#FF926B" radius="5"></a-octahedron>
+                </a-scene>
             </body>
         </html>
                         `}
@@ -70,7 +72,6 @@ const Octahedron = () => {
                 </div>
             </Contents>
             <SubNav>
-                Example
             </SubNav>
         </Wrapper>
     );
