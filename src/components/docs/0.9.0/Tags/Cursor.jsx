@@ -47,7 +47,7 @@ const SubTitle = styled.div`
 
 const Cursor = () => {
     return (
-        <Wrapper>
+        <Wrapper id="<a-cursor>">
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-cursor>'}</Title>

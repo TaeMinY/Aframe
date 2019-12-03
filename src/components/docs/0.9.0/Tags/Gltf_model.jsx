@@ -47,7 +47,7 @@ const SubTitle = styled.div`
 
 const Gltf_model = () => {
     return (
-        <Wrapper>
+        <Wrapper id="<a-gltf-model>">
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-gltf-model>'}</Title>

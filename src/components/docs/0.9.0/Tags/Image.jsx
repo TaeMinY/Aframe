@@ -47,7 +47,7 @@ const SubTitle = styled.div`
 
 const Image = () => {
     return (
-        <Wrapper>
+        <Wrapper id="<a-image>">
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-image>'}</Title>

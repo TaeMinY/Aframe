@@ -47,7 +47,7 @@ const SubTitle = styled.div`
 
 const Video = () => {
     return (
-        <Wrapper>
+        <Wrapper id="<a-video>">
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-video>'}</Title>

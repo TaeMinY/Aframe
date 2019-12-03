@@ -47,7 +47,7 @@ const SubTitle = styled.div`
 
 const Videosphere = () => {
     return (
-        <Wrapper>
+        <Wrapper id="<a-videosphere>">
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-videosphere>'}</Title>

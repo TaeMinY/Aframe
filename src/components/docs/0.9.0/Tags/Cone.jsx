@@ -47,7 +47,7 @@ const SubTitle = styled.div`
 
 const Cone = () => {
     return (
-        <Wrapper>
+        <Wrapper id="<a-cone>">
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-cone>'}</Title>

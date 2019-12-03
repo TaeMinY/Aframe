@@ -47,7 +47,7 @@ const SubTitle = styled.div`
 
 const Sky = () => {
     return (
-        <Wrapper>
+        <Wrapper id="<a-sky>">
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-sky>'}</Title>

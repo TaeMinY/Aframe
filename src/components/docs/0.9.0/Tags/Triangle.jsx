@@ -48,7 +48,7 @@ const SubTitle = styled.div`
 
 const Triangle = () => {
     return (
-        <Wrapper>
+        <Wrapper id="<a-triangle>">
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-triangle>'}</Title>

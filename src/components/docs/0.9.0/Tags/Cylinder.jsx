@@ -47,7 +47,7 @@ const SubTitle = styled.div`
 
 const Cylinder = () => {
     return (
-        <Wrapper>
+        <Wrapper id="<a-cylinder>">
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-cylinder>'}</Title>

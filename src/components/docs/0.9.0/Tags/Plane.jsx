@@ -47,7 +47,7 @@ const SubTitle = styled.div`
 
 const Plane = () => {
     return (
-        <Wrapper>
+        <Wrapper id="<a-plane>">
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-plane>'}</Title>

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components"
 import { Link } from "react-scroll";
 const Wrapper = styled.div`
-    min-width:310px;
+    width:310px;
     height:calc(100vh - 70px);
     top:70px;
     background-color:#f5f5f5;
@@ -30,7 +30,8 @@ const Img = styled.img`
     transition:0.2s;
     transform : ${props => ((props.state === true) ? 'rotate(90deg)' : 'rotate(-90deg)')};
 `
-
+const NavGroup = styled.div`
+`
 
 function Nav() {
 
@@ -58,7 +59,7 @@ function Nav() {
                 <div style={{ marginLeft: "8px" }}>
                     {
                         tagState === true ? (
-                            <div style={{ margin: "5px 10px" }} style={!tagState ? { maxHeight: "0px" } : {}}>
+                            <NavGroup style={{ margin: "5px 10px" }} style={!tagState ? { maxHeight: "0px" } : {}}>
                                 {(Tags || []).map((value, index) => (
                                     <Tag className="Tag" >
                                         <Link activeClass="active" to={test[index]} spy={true} smooth={true} offset={-70} duration={500} style={{ zIndex: 1000 }}>
@@ -66,7 +67,7 @@ function Nav() {
                                         </Link>
                                     </Tag>
                                 ))}
-                            </div>
+                            </NavGroup>
                         ) : (<></>)
                     }
                 </div>

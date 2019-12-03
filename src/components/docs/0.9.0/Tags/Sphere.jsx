@@ -47,7 +47,7 @@ const SubTitle = styled.div`
 
 const Sphere = () => {
     return (
-        <Wrapper>
+        <Wrapper id="<a-sphere>">
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-sphere>'}</Title>

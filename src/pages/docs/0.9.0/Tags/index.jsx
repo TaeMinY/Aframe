@@ -38,31 +38,31 @@ class index extends Component {
                     <div>
                         <Box></Box>
                         <Camera></Camera>
-                        <Circle id="<a-circle>"></Circle>
-                        <Cone id="<a-cone>" ></Cone>
-                        <Cursor id="<a-cursor>"></Cursor>
-                        <Curvedimage id="<a-curvedimage>"></Curvedimage>
-                        <Cylinder id="<a-cylinder>"></Cylinder>
-                        <Dodecahedron id="<a-dodecahedron>"></Dodecahedron>
-                        <Gltf_model id="<a-gltf_model>"></Gltf_model>
-                        <Icosahedron id="<a-icosahedron>"></Icosahedron>
-                        <Image id="<a-image>"></Image>
-                        <Light id="<a-light>"></Light>
-                        <Link id="<a-link>"></Link>
-                        <Obj_model id="<a-obj_model>"></Obj_model>
-                        <Octahedron id="<a-octahedron>"></Octahedron>
-                        <Plane id="<a-plane>"></Plane>
-                        <Ring id="<a-ring>"></Ring>
-                        <Sky id="<a-sky>"></Sky>
-                        <Sound id="<a-sound>"></Sound>
-                        <Sphere id="<a-sphere>"></Sphere>
-                        <Tetrahedron id="<a-tetrahedron>"></Tetrahedron>
-                        <Text id="<a-text>"></Text>
-                        <Torus_knot id="<a-torus_knot>"></Torus_knot>
-                        <Torus id="<a-torus>"></Torus>
-                        <Triangle id="<a-triangle>"></Triangle>
-                        <Video id="<a-video>"></Video>
-                        <Videosphere id="<a-videosphere>"></Videosphere>
+                        <Circle></Circle>
+                        <Cone ></Cone>
+                        <Cursor></Cursor>
+                        <Curvedimage></Curvedimage>
+                        <Cylinder></Cylinder>
+                        <Dodecahedron></Dodecahedron>
+                        <Gltf_model></Gltf_model>
+                        <Icosahedron></Icosahedron>
+                        <Image></Image>
+                        <Light></Light>
+                        <Link></Link>
+                        <Obj_model></Obj_model>
+                        <Octahedron></Octahedron>
+                        <Plane></Plane>
+                        <Ring></Ring>
+                        <Sky></Sky>
+                        <Sound></Sound>
+                        <Sphere></Sphere>
+                        <Tetrahedron></Tetrahedron>
+                        <Text></Text>
+                        <Torus_knot></Torus_knot>
+                        <Torus></Torus>
+                        <Triangle></Triangle>
+                        <Video></Video>
+                        <Videosphere></Videosphere>
                     </div>
                 </div>
             </div >

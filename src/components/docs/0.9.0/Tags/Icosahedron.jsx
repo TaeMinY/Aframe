@@ -47,7 +47,7 @@ const SubTitle = styled.div`
 
 const Icosahedron = () => {
     return (
-        <Wrapper>
+        <Wrapper id="<a-icosahedron>" >
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-icosahedron>'}</Title>

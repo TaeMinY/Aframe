@@ -47,7 +47,7 @@ const SubTitle = styled.div`
 
 const Torus = () => {
     return (
-        <Wrapper>
+        <Wrapper id="<a-torus>">
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-torus>'}</Title>

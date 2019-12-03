@@ -47,7 +47,7 @@ const SubTitle = styled.div`
 
 const Tetrahedron = () => {
     return (
-        <Wrapper>
+        <Wrapper id="<a-tetrahedron>">
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-tetrahedron>'}</Title>

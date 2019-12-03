@@ -47,7 +47,7 @@ const SubTitle = styled.div`
 
 const Text = () => {
     return (
-        <Wrapper>
+        <Wrapper id="<a-text>">
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-text>'}</Title>
