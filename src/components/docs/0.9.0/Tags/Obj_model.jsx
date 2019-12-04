@@ -47,7 +47,7 @@ const SubTitle = styled.div`
 
 const Obj_model = () => {
     return (
-        <Wrapper id="<a_obj_model>">
+        <Wrapper id="<a-obj-model>">
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-obj-model>'}</Title>

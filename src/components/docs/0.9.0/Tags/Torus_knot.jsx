@@ -47,7 +47,7 @@ const SubTitle = styled.div`
 
 const Torus_knot = () => {
     return (
-        <Wrapper id="<a-torus_knot>">
+        <Wrapper id="<a-torus-knot>">
             <Contents>
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-torus-knot>'}</Title>
