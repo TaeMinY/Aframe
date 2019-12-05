@@ -9,6 +9,7 @@ const Wrapper = styled.div`
     box-sizing:border-box;
     position:sticky;
     left:0px;
+    overflow-y:auto;
 `
 const Subject = styled.div`
     font-size:18px ;
@@ -72,6 +73,7 @@ function Nav() {
                     }
                 </div>
             </div>
+
         </Wrapper >
     )
 }
