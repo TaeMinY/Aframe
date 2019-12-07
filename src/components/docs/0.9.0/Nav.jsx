@@ -60,9 +60,9 @@ function Nav() {
                 <div style={{ marginLeft: "8px" }}>
                     {
                         tagState === true ? (
-                            <NavGroup style={{ margin: "5px 10px" }} style={!tagState ? { maxHeight: "0px" } : {}}>
+                            <NavGroup style={!tagState ? { maxHeight: "0px", margin: "5px 10px" } : {}}>
                                 {(Tags || []).map((value, index) => (
-                                    <Tag className="Tag" >
+                                    <Tag className="Tag"  >
                                         <Link activeClass="active" to={test[index]} spy={true} smooth={true} offset={-70} duration={500} style={{ zIndex: 1000 }}>
                                             {value}
                                         </Link>
