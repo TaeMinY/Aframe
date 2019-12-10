@@ -13,9 +13,11 @@ const Wrapper = styled.div`
     z-index:10000;
 `
 
-const Title = styled.div`
+const Title = styled.a`
     font-size:30px;
     color : #0052D4;
+    text-decoration:none;
+
 `
 const Text = styled.div`
     font-size:20px;
@@ -77,7 +79,7 @@ class Header extends Component {
             <>
                 <Wrapper>
                     <Left>
-                        <Title>A-frame</Title>
+                        <Title href="/">A-frame</Title>
                     </Left>
                     <Right>
                         <div style={{ display: "flex", margin: "0px 10px" }}>
