@@ -4,7 +4,7 @@ import styled from "styled-components"
 import { Highlight } from "react-fast-highlight"
 const Wrapper = styled.div`
     width:100%;
-    margin: 0 auto;
+    margin: 0px auto 70px auto;
     background-color:#f8f8f8;
 `
 export default function Html(props) {

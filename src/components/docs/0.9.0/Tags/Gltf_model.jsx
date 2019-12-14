@@ -54,7 +54,7 @@ const Gltf_model = () => {
                     <Text1>
                         glTF 모델 프리미티브는 3D 모델링 프로그램에서 생성되거나 웹에서 다운로드 된 3D glTF 모델을 표시합니다.
                   </Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>

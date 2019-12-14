@@ -54,7 +54,7 @@ const Image = () => {
                     <Text1>
                         이미지 프리미티브는 평면의 이미지를 보여줍니다.
                   </Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>

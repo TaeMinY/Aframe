@@ -55,7 +55,7 @@ const Triangle = () => {
                     <Text1>
                         삼각형 기본 요소는 유형이 삼각형으로 설정된 형상 구성 요소를 사용하여 삼각형 표면을 작성합니다.
                   </Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>

@@ -54,7 +54,7 @@ const Plane = () => {
                     <Text1>
                         평면 기본 요소는 유형이 평면으로 설정된 형상 구성 요소(geometry component)를 사용하여 평평한 표면을 작성합니다.
                   </Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>

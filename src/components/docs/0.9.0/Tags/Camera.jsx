@@ -53,7 +53,7 @@ const Camera = () => {
                     <Title>{'<a-camera>'}</Title>
                     <Text1>
                         카메라 기본 요소는 유저가 보는 것을 결정합니다. 카메라 엔티티(entity)의 위치와 회전을 수정하여 뷰포트(viewport)를 변경할 수 있습니다</Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>

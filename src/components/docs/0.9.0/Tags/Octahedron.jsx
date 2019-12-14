@@ -54,7 +54,7 @@ const Octahedron = () => {
                     <Text1>
                         8면체를 생성 할 수 있습니다.
                     </Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>

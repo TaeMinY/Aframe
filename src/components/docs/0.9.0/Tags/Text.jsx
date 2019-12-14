@@ -54,7 +54,7 @@ const Text = () => {
                     <Text1>
                         텍스트 구성 요소를 작성합니다.
                   </Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>

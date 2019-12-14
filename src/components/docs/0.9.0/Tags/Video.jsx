@@ -54,7 +54,7 @@ const Video = () => {
                     <Text1>
                         비디오 프리미티브는 평평한 평면에서 비디오를 텍스처로 재생합니다.
                   </Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>

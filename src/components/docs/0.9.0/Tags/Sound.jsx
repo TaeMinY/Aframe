@@ -54,7 +54,7 @@ const Sound = () => {
                     <Text1>
                         사운드 프리미티브는 사운드 컴포넌트를 랩핑합니다.
                   </Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>

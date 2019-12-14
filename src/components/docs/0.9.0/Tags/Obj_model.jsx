@@ -54,7 +54,7 @@ const Obj_model = () => {
                     <Text1>
                         .OBJ 모델 기본 요소는 3D Wavefront 모델을 표시합니다.
                   </Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>

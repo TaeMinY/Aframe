@@ -54,7 +54,7 @@ const Tetrahedron = () => {
                     <Text1>
 
                     </Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>

@@ -52,7 +52,7 @@ const Box = () => {
                 <div style={{ width: "90%", margin: "1% auto" }}>
                     <Title>{'<a-box>'}</Title>
                     <Text1>정육면체 또는 벽과 같은 모양을 만들 수 있습니다.</Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>
@@ -73,6 +73,7 @@ const Box = () => {
         </html>
                         `}
                     </Html>
+                    <SubTitle>속성</SubTitle>
                 </div>
             </Contents>
             <SubNav>

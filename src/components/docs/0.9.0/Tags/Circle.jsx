@@ -53,7 +53,7 @@ const Circle = () => {
                     <Title>{'<a-circle>'}</Title>
                     <Text1>
                         원형 원선은 유형이 원형으로 설정된 형상 구성 요소를 사용하여 원형 표면을 만듭니다.</Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>

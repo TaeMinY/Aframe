@@ -54,7 +54,7 @@ const Ring = () => {
                     <Text1>
                         링 기본 요소는 링 또는 디스크 모양을 만듭니다.
                   </Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>

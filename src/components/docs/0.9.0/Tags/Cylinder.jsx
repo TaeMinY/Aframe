@@ -54,7 +54,7 @@ const Cylinder = () => {
                     <Text1>
                         원기둥 원형(primitive)은 튜브와 곡면을 만드는 데 사용됩니다.
 </Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>

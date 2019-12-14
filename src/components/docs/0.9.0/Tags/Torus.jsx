@@ -54,7 +54,7 @@ const Torus = () => {
                     <Text1>
                         원환 체 기본 요소는 유형이 원환 체로 설정된 형상 구성 요소를 사용하여 도넛 또는 튜브 모양을 작성합니다.
                   </Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>

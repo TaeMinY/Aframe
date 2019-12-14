@@ -54,7 +54,7 @@ const Videosphere = () => {
                     <Text1>
                         비디오 스피어 프리미티브는 장면의 배경에서 360 ° 비디오를 재생합니다. 비디오 스피어는 비디오 텍스처가 내부에 매핑 된 큰 구체입니다.
                   </Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>

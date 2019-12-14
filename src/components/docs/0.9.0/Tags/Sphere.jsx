@@ -54,7 +54,7 @@ const Sphere = () => {
                     <Text1>
                         구 프리미티브는 구형 또는 다면체 모양을 만듭니다. 기하 기본 요소를 구형으로 설정하여 기하 구성 요소를 규정하는 엔티티를 래핑합니다.
                   </Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>

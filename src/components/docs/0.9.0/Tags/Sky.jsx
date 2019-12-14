@@ -54,7 +54,7 @@ const Sky = () => {
                     <Text1>
                         스카이 프리미티브는 장면에 배경색 또는 360 ° 이미지를 추가합니다. 하늘은 내부에 색상 또는 질감이 매핑 된 큰 구입니다.
                   </Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>

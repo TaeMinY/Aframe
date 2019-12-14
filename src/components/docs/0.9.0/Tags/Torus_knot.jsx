@@ -54,7 +54,7 @@ const Torus_knot = () => {
                     <Text1>
                         원환 체 매듭 기본 요소는 유형이 torusKnot으로 설정된 형상 구성 요소를 사용하여 프레첼 모양을 만듭니다.
                   </Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>

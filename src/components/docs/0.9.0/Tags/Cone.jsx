@@ -54,7 +54,7 @@ const Cone = () => {
                     <Text1>
 
                         원뿔 원선(cone primitive)은 원뿔 모양을 만듭니다.</Text1>
-                    <SubTitle>Example</SubTitle>
+                    <SubTitle>예제</SubTitle>
                     <Html>
                         {`
         <html>
